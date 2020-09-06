@@ -16,3 +16,14 @@ curl --location --request POST 'http://localhost:4002/get_sentence_similarity' \
 --form 'injson={"Sentence1": "PCCW '\''s chief operating officer , Mike Butcher , and Alex Arena , the chief financial officer , will report directly to Mr So .",
 "Sentence2": "Current Chief Operating Officer Mike Butcher and Group Chief Financial Officer Alex Arena will report to So ."}'
 ```
+
+Response:
+```
+[
+  { 
+    "Sentence1": "PCCW 's chief operating officer , Mike Butcher , and Alex Arena , the chief financial officer , will report directly to Mr So .",
+    "Sentence2": "Current Chief Operating Officer Mike Butcher and Group Chief Financial Officer Alex Arena will report to So .",
+    "isSimilar": 1
+  }
+]
+```
